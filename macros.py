@@ -3,7 +3,6 @@ import random
 ran_num = random.randint(1, 99)
 
 value = False
-print(ran_num)
 
 while value == False:
     user_input = int(input("Choose random number from 1 to 100: "))
